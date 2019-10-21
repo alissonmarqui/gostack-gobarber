@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "nodemon --delay 1000ms src/server.js",
     "dev:debug": "nodemon --inspect src/server.js"
   },
   "dependencies": {

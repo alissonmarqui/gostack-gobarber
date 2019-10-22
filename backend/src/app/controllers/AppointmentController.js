@@ -134,7 +134,7 @@ class AppointmentController {
 
     await appointment.save();
 
-    res.json(appointment);
+    return res.json(appointment);
   }
 }
 
